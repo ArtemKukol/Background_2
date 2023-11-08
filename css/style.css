@@ -1,0 +1,50 @@
+body {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 30px;
+   
+   font: 14px/1.5 monospace;
+ }
+ 
+ .section {
+   height: 200px;
+   
+   background: #ffeb3b;
+ }
+ 
+ .image {
+   background-image: url(https://assets.codepen.io/1425525/Hexlet_Logo-01-svg__1_.png);
+ }
+ 
+ .repeat-x {
+   background-repeat: repeat-x;
+ }
+ 
+ .repeat-y {
+   background-repeat: repeat-y;
+ }
+ 
+ .no-repeat {
+   background-repeat: no-repeat;
+ }
+ 
+ .repeat-space {
+   background-repeat: space;
+ }
+ 
+ .repeat-round {
+   background-repeat: round;
+ }
+
+ .image_1 {
+   background-image: url(https://assets.codepen.io/1425525/Hexlet_Logo-01-svg__1_.png);
+   background-repeat: no-repeat;
+ }
+ 
+ .size-one {
+   background-size: 30%;
+ }
+ 
+ .size-two {
+   background-size: 100px 200px;
+ }
